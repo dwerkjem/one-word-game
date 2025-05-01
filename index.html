@@ -3,11 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./src/one-word-game.css">
+  <link rel="stylesheet" href="./src/css/one-word-game.css">
   <title>One Word Game</title>
 </head>
 <body>
-  <h1>One Word Game</h1>
-  <p>Make a story collaboratively one word at a time.</p>
+  <nav class="navbar">
+    <div class="flex">
+      <a href="#" class="logo">One Word Game</a>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">How to Play</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+      <button class="btn signin-btn">Play</button>
+    </div>
+  </nav>
+  <header class="hero">
+    <div class="container">
+      <h1>Welcome to the One Word Game</h1>
+      <p>Join us in creating a story, one word at a time!</p>
+      <button class="btn play-btn">Play Now</button>
+    </div>
+  </header>
+  <script type="module" src="./src/javascript/main.js"></script>
 </body>
 </html>
